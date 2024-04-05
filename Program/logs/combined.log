@@ -1,0 +1,20 @@
+{"level":"info","message":"New addition operation requested: 111 addition 111","service":"calculator-microservice"}
+{"level":"error","message":"Error: Number 1 incorrectly defined","service":"calculator-microservice"}
+{"level":"info","message":"New subtraction operation requested: 10 subtraction 33","service":"calculator-microservice"}
+{"level":"info","message":"New multiplication operation requested: 10 multiplication 33","service":"calculator-microservice"}
+{"level":"info","message":"New division operation requested: 10 division 33","service":"calculator-microservice"}
+{"level":"error","message":"Error: Number 1 incorrectly defined","service":"calculator-microservice"}
+{"level":"info","message":"New addition operation requested: 10 addition 2","service":"calculator-microservice"}
+{"level":"info","message":"New addition operation requested: 10 addition 33","service":"calculator-microservice"}
+{"level":"info","message":"New subtraction operation requested: 11 subtraction 11","service":"calculator-microservice"}
+{"level":"info","message":"New multiplication operation requested: 11 multiplication 22","service":"calculator-microservice"}
+{"level":"info","message":"New addition operation requested: 11 addition 7","service":"calculator-microservice"}
+{"level":"info","message":"New multiplication operation requested: 2 multiplication 4","service":"calculator-microservice"}
+{"level":"info","message":"New modulus operation requested: 10 modulus 2","service":"calculator-microservice"}
+{"level":"info","message":"New modulus operation requested: 11 modulus 2","service":"calculator-microservice"}
+{"level":"info","message":"New exponential operation requested: 10 exponential 2","service":"calculator-microservice"}
+{"level":"info","message":"New exponential operation requested: 10 exponential 3","service":"calculator-microservice"}
+{"level":"error","message":"ReferenceError: num2 is not defined","service":"calculator-microservice"}
+{"level":"info","message":"New squareroot operation requested: 25 squareroot","service":"calculator-microservice"}
+{"level":"info","message":"New squareroot operation requested: 36 squareroot","service":"calculator-microservice"}
+{"level":"info","message":"New squareroot operation requested: 368 squareroot","service":"calculator-microservice"}

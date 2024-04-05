@@ -1,0 +1,23 @@
+{
+  "name": "task4.1",
+  "version": "1.0.0",
+  "description": "Microservices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akash271291/sit323_737-2024-t1-prac4.1p.git"
+  },
+  "author": "Akash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akash271291/sit323_737-2024-t1-prac4.1p.git"
+  },
+  "homepage": "https://github.com/akash271291/sit323_737-2024-t1-prac4.1p/new/main?readme=1",
+  "dependencies": {
+    "express": "^4.18.2",
+    "winston": "^3.12.0"
+  }
+}

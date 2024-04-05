@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Task 4.1P</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <h1>Basic Calculations</h1>
+        </div>
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="oppOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse"
+                            data-target="#One" aria-expanded="true" aria-controls="One">
+                            Addition
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="One" class="collapse show" aria-labelledby="oppOne"
+                    data-parent="#accordionExample">
+                    <div class="card-body">
+                        <form action="/addition" method="POST">
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="text" name="num1" class="form-control" placeholder="Enter Number 1">
+                                </div>
+                                <div class="col">
+                                    <input type="text" name="num2" class="form-control" placeholder="Enter Number 2">
+                                </div>
+                                <button type="submit" class="btn-primary">Result</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="oppTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                            data-target="#Two" aria-expanded="false" aria-controls="Two">
+                            Subtraction
+                        </button>
+                    </h2>
+                </div>
+                <div id="Two" class="collapse" aria-labelledby="oppTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <form action="/subtraction" method="POST">
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="text" name="num1" class="form-control" placeholder="Enter Number 1">
+                                </div>
+                                <div class="col">
+                                    <input type="text" name="num2" class="form-control" placeholder="Enter Number 2">
+                                </div>
+                                <button type="submit" class="btn-primary">Result</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="oppThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                            data-target="#Three" aria-expanded="false" aria-controls="Three">
+                            Multiplication
+                        </button>
+                    </h2>
+                </div>
+                <div id="Three" class="collapse" aria-labelledby="oppThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <form action="/multiplication" method="POST">
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="text" name="num1" class="form-control" placeholder="Enter Number 1">
+                                </div>
+                                <div class="col">
+                                    <input type="text" name="num2" class="form-control" placeholder="Enter Number 2">
+                                </div>
+                                <button type="submit" class="btn-primary">Result</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="oppFour">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                            data-target="#Four" aria-expanded="false" aria-controls="Four">
+                            Division
+                        </button>
+                    </h2>
+                </div>
+                <div id="Four" class="collapse" aria-labelledby="oppFour" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <form action="/division" method="POST">
+                            <div class="form-row">
+                                <div class="col">
+                                    <input type="text" name="num1" class="form-control" placeholder="Enter Number 1">
+                                </div>
+                                <div class="col">
+                                    <input type="text" name="num2" class="form-control" placeholder="Enter Number 2">
+                                </div>
+                                <button type="submit" class="btn-primary">Result</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+
+
+                <div class="card">
+                    <div class="card-header" id="oppFive">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                                data-target="#Five" aria-expanded="false" aria-controls="Five">
+                                Exponential
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="Five" class="collapse" aria-labelledby="oppFive" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <form action="/exponential" method="POST">
+                                <div class="form-row">
+                                    <div class="col">
+                                        <input type="text" name="num1" class="form-control" placeholder="Enter Number 1">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" name="num2" class="form-control" placeholder="Enter Number 2">
+                                    </div>
+                                    <button type="submit" class="btn-primary">Result</button>
+                                </div>
+    
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="card">
+                    <div class="card-header" id="oppSix">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                                data-target="#Six" aria-expanded="false" aria-controls="Six">
+                                SquareRoot
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="Six" class="collapse" aria-labelledby="oppSix" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <form action="/squareroot" method="POST">
+                                <div class="form-row">
+                                    <div class="col">
+                                        <input type="text" name="num1" class="form-control" placeholder="Enter Number 1">
+                                    </div>
+                                    <button type="submit" class="btn-primary">Result</button>
+                                </div>
+    
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="card">
+                    <div class="card-header" id="oppSeven">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse"
+                                data-target="#Seven" aria-expanded="false" aria-controls="Seven">
+                                Modulus
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="Seven" class="collapse" aria-labelledby="oppSeven" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <form action="/modulus" method="POST">
+                                <div class="form-row">
+                                    <div class="col">
+                                        <input type="text" name="num1" class="form-control" placeholder="Enter Number 1">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" name="num2" class="form-control" placeholder="Enter Number 2">
+                                    </div>
+                                    <button type="submit" class="btn-primary">Result</button>
+                                </div>
+    
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
